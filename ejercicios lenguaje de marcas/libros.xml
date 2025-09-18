@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<varioslibros>
+    <libro>
+        <titulo>Aprendiendo XML</titulo>
+        <autor>Juan Perez</autor>
+        <fecha>2020</fecha>
+        <genero>Tecnología</genero>
+    </libro>
+    <libro>
+        <titulo>Introducción a XSLT</titulo>
+        <autor>Maria Gomez</autor>
+        <fecha>2019</fecha>
+        <genero>Tecnología</genero>
+    </libro>
+    <libro>
+        <titulo>Diseño de Páginas Web</titulo>
+        <autor>Carlos Ruiz</autor>
+        <fecha>2021</fecha>
+        <genero>Diseño</genero>
+    </libro>
+</varioslibros>
