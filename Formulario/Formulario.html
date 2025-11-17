@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Visita</title>
+    <style>
+        body{
+            margin-left: 35%;
+            margin-right: 35%;
+            background-color: rgb(209, 246, 255);
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        fieldset{
+            background-color: rgb(199, 255, 236);
+            text-align: center;
+            border-radius: 10%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Formulario de Contacto - Visita a la Empresa</h1>
+    <p>Rellena los campos marcados con * (obligatorios)</p>
+
+    <form action="respuesta.html" method="post">
+
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            Nombre del solicitante*: <br>
+            <input type="text" name="nombre" required><br><br>
+
+            Correo electrónico*: <br>
+            <input type="email" name="correo" required><br><br>
+
+            Subir archivo: <br>
+            <input type="file" name="archivo"><br><br>
+
+            <input type="hidden" name="id" value="form123">
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos de la Visita</legend>
+
+            Fecha de solicitud: <br>
+            <input type="date" name="fechaSolicitud" value="2025-09-15"><br><br>
+
+            Número de personas*: <br>
+            <input type="number" name="personas" min="1" max="50" value="5" required><br><br>
+
+            Horario preferido: <br>
+            <input list="horarios" name="horario">
+            <datalist id="horarios">
+                <option value="Mañana">
+                <option value="Mediodía">
+                <option value="Tarde">
+            </datalist><br><br>
+
+            Fecha prevista de visita*: <br>
+            <input type="date" name="fechaPrevista" required><br><br>
+
+            ¿Necesita guía?: <br>
+            <input type="checkbox" name="guia" value="Sí"> Sí <br>
+
+            <br>
+            Nivel de interés (1 a 10): <br>
+            <input type="range" name="interes" min="1" max="10" value="7"><br><br>
+        </fieldset>
+
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+    <hr>
+</body>
+
+</html>

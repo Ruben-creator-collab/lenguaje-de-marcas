@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario del grupo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef3fa;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin: 30px;
+            padding-left: 38%;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 30px auto;
+            text-align: center;
+            width: 90%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        th, td {
+            border: 2px solid #4b4b4b;
+            padding: 10px;
+        }
+
+        th[colspan="9"] {
+            background-color: #004aad;
+            color: white;
+            font-size: 1.4em;
+            border-style: inset;
+        }
+
+        th {
+            background-color: #bcd4ff;
+            border-style: outset;
+        }
+
+        td {
+            border-style: groove;
+            font-weight: bold;
+        }
+
+        td small {
+            display: block;
+            font-weight: normal;
+            font-size: 0.8em;
+            color: #222;
+        }
+
+        td[colspan="5"] {
+            background-color: #ccc;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .bdd { background-color: #d6eaff; }
+        .programacion { background-color: #d7ffd9; }
+        .entorno { background-color: #ffe3f1; }
+        .ldm { background-color: #fff4c2; }
+        .digital { background-color: #ffd9d6; }
+        .sosten { background-color: #d6fff3; }
+        .ipe { background-color: #e5d6ff; }
+        .si { background-color: #fff7d6; }
+
+        /* Pie de página */
+        footer {
+            background-color: #004aad;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            box-shadow: 0 -5px 10px rgba(0,0,0,0.2);
+        }
+
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div style="text-align: center; display: flex;">
+        <img src="bin/logo-ies-playamar.png" alt="Logo ies playamar" height="100" width="100">
+        <h1>IES Playamar</h1>
+    </div>
+
+    <table border="1">
+        <tr>
+            <th colspan="9">1º DAW</th>
+        </tr>
+        <tr>
+            <th>Horas</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td>15:15 - 16:15</td>
+            <td rowspan="3" class="bdd">BDD<br><small>Miguel Ángel</small></td>
+            <td rowspan="3" class="ipe">IPE<br><small>Carlos</small></td>
+            <td class="digital">Digitalización<br><small>Adolfo</small></td>
+            <td class="bdd">BDD<br><small>Miguel Ángel</small></td>
+            <td rowspan="2" class="si">SI<br><small>Alfonso</small></td>
+        </tr>
+        <tr>
+            <td>16:15 - 17:15</td>
+            <td class="sosten">Sostenibilidad<br><small>Carlos</small></td>
+            <td rowspan="2" class="programacion">Programación<br><small>Rafa</small></td>
+        </tr>
+        <tr>
+            <td>17:15 - 18:15</td>
+            <td class="entorno">Entorno de desarrollo<br><small>Pilar</small></td>
+            <td class="bdd">BDD<br><small>Miguel Ángel</small></td>
+        </tr>
+        <tr>
+            <td>18:15 - 18:30</td>
+            <td colspan="5">RECREO</td>
+        </tr>
+        <tr>
+            <td>18:30 - 19:30</td>
+            <td rowspan="2" class="programacion">Programación<br><small>Rafa</small></td>
+            <td rowspan="3" class="si">SI<br><small>Alfonso</small></td>
+            <td class="entorno">Entorno de desarrollo<br><small>Pilar</small></td>
+            <td rowspan="3" class="ldm">LDM<br><small>Adolfo</small></td>
+            <td class="bdd">BDD<br><small>Miguel Ángel</small></td>
+        </tr>
+        <tr>
+            <td>19:30 - 20:30</td>
+            <td rowspan="2" class="programacion">Programación<br><small>Rafa</small></td>
+            <td rowspan="2" class="programacion">Programación<br><small>Rafa</small></td>
+        </tr>
+        <tr>
+            <td>20:30 - 21:30</td>
+            <td class="entorno">Entorno de desarrollo<br><small>Pilar</small></td>
+        </tr>
+    </table>
+
+        <footer>
+        <p>2025 IES Playamar — Grupo 1º DAW | Diseñado por <strong>Rubén Rivas</strong></p>
+        <p><a href="https://iesplayamar.es" target="_blank">Visita la web del centro</a></p>
+    </footer>
+</body>
+</html>

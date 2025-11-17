@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DistintosLibros>
+    <libro>
+        <titulo>La vida está en otra parte</titulo>
+        <autor>Milan Kundera</autor>
+        <fecha año="1973" />
+        <genero>Novela</genero>
+    </libro>
+
+    <libro>
+        <titulo>La vida está en otra parte</titulo>
+        <autor>Milan Kundera</autor>
+        <fecha año="1973" />
+        <genero>Novela</genero>
+    </libro>
+
+    <libro>
+        <titulo>La vida está en otra parte</titulo>
+        <autor>Milan Kundera</autor>
+        <fecha año="1973" />
+        <genero>Novela</genero>
+    </libro>
+</DistintosLibros>
