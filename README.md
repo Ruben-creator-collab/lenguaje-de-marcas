@@ -1,21 +1,34 @@
-<h1 align="left">Este es mi repositorio de lenguaje de marcas</h1>
+# 📘 Este es mi repositorio de Lenguaje de Marcas  
 
-###
+En este repositorio voy a ir subiendo mis **prácticas, ejercicios y proyectos** relacionados con el Lenguaje de Marcas y tecnologías web.
 
-<p align="left"></p>
+---
 
-###
+## 🔧 Lenguajes que voy a utilizar
 
-<h2 align="left">Voy a utilizar los siguientes lenguajes</h2>
+<div style="display: flex; gap: 15px; align-items: center;">
 
-###
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="60" alt="JavaScript"/>
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="60" alt="HTML5"/>
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="60" alt="CSS3"/>
+
 </div>
 
-###
+---
+
+## 📂 Contenido del repositorio
+
+- Ejercicios de HTML  
+- Ejercicios de CSS  
+- Ejercicios de JavaScript  
+- Prácticas combinadas  
+- Recursos y materiales
+
+---
+
+## 📝 Notas
+
+Este repositorio se actualizará frecuentemente con nuevas prácticas y mejoras.
+
